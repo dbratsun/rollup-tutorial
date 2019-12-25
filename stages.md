@@ -20,4 +20,7 @@ add script in package.json:
     }
 }
 
+# stage 4
 
+npm install --save-dev rollup-plugin-json
+npm run build

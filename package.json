@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "rollup": "^1.27.14"
+    "rollup": "^1.27.14",
+    "rollup-plugin-json": "^4.0.0"
   }
 }
