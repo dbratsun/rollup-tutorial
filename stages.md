@@ -22,5 +22,13 @@ add script in package.json:
 
 # stage 4
 
+rm bundle.js
 npm install --save-dev rollup-plugin-json
 npm run build
+
+# stage 5
+
+rm bundle.js
+npm install --save-dev rollup-plugin-terser
+npm run build
+
