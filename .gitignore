@@ -1,5 +1,9 @@
 # Bundle
 bundle.js
+bundle.min.js
+
+# Dist
+dist
 
 # Logs
 logs

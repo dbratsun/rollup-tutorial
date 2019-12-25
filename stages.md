@@ -32,3 +32,9 @@ rm bundle.js
 npm install --save-dev rollup-plugin-terser
 npm run build
 
+# stage 6
+
+rollup src/main.js -f cjs -d dist
+rollup src/main.js src/main2.js -f cjs
+rollup src/main.js src/main2.js -f cjs -d dist
+rollup src/main.js src/main2.js -f esm -d dist
